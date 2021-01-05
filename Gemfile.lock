@@ -18,11 +18,11 @@ GEM
     rspec-support (3.10.1)
 
 PLATFORMS
-  x86_64-darwin-20
+  ruby
 
 DEPENDENCIES
   rake (~> 11.2, >= 11.2.2)
   rspec (~> 3.0)
 
 BUNDLED WITH
-   2.2.4
+   2.1.4
