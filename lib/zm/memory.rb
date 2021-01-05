@@ -23,7 +23,7 @@ module ZM
     def read_word(address)
       bounds_check(address) && bounds_check(address + 1)
 
-      @content[address]<<8 | @content[address+1]
+      @content[address] << 8 | @content[address + 1]
     end
 
     private
